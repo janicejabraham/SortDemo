@@ -10,6 +10,7 @@ public class AlgoTest {
 
 	@Test
 	//Node coverage and Condition coverage
+	//test sequence: 20,21,22,23,24,25,26,27,28,29,30,31,32,33,27,28,29,30,31,32,33,34
 	public void BubbleSorttestforDescending() {
 		
 		Item[] numbers = new Item[6];
@@ -37,6 +38,7 @@ public class AlgoTest {
 	
 	@Test
 	//Node coverage
+	//test sequence: 20,21,22,23,24,25,26,27,33,26,27,33,34
 	public void BubbleSorttestforAscending() {
 		
 		Item[] numbers = new Item[6];
@@ -64,6 +66,7 @@ public class AlgoTest {
 	
 	@Test
 	//Node coverage and edge coverage
+	//test sequence: 20,21,22,23,24,25,26,34
 	public void BubbleSorttestforSingleElement() {
 		
 		Item[] numbers = new Item[1];
@@ -76,6 +79,7 @@ public class AlgoTest {
 	
 	@Test
 	//Node coverage and condition coverage
+	//test sequence: 20,21,22,23,24,25,26,27,33,34
 	public void BubbleSorttestforTwoElement() {
 		
 		Item[] numbers = new Item[2];

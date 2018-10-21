@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test.java.AlgoTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2018-10-21T22:23:07" hostname="Janices-MacBook-Pro.local" time="0.009">
+  <properties/>
+  <testcase name="HeapSorttest" classname="test.java.AlgoTest" time="0.005"/>
+  <testcase name="QuickSorttest" classname="test.java.AlgoTest" time="0.001"/>
+  <testcase name="BubbleSorttestforAscending" classname="test.java.AlgoTest" time="0.0"/>
+  <testcase name="SelectionSorttest" classname="test.java.AlgoTest" time="0.0"/>
+  <testcase name="InsertionSorttest" classname="test.java.AlgoTest" time="0.0"/>
+  <testcase name="BubbleSorttestforSingleElement" classname="test.java.AlgoTest" time="0.0"/>
+  <testcase name="MergeSorttest" classname="test.java.AlgoTest" time="0.0"/>
+  <testcase name="BubbleSorttestforTwoElement" classname="test.java.AlgoTest" time="0.001"/>
+  <testcase name="BubbleSorttestforDescending" classname="test.java.AlgoTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -9,8 +9,9 @@ import main.java.*;
 public class AlgoTest {
 
 	@Test
-	//Node coverage and Condition coverage
-	//test sequence: 20,21,22,23,24,25,26,27,28,29,30,31,32,33,27,28,29,30,31,32,33,34
+	//Test Sequence for Node coverage, Edge Coverage and Condition coverage: 
+	//20,21,22,23,24,25,26,27,28,29,30,31,25,26,27,28,29,30,31,24,25,26,27,28,29,30,3 1,24,32
+
 	public void BubbleSorttestforDescending() {
 		
 		Item[] numbers = new Item[6];
@@ -37,8 +38,8 @@ public class AlgoTest {
 	}
 	
 	@Test
-	//Node coverage
-	//test sequence: 20,21,22,23,24,25,26,27,33,26,27,33,34
+	//Test Sequence for Node coverage and Condition Coverage: 
+	//20,21,22,23,24,25,31,24,32
 	public void BubbleSorttestforAscending() {
 		
 		Item[] numbers = new Item[6];
@@ -64,34 +65,7 @@ public class AlgoTest {
 		assertEquals(numbers[5].key,sortedNumbers[5].key);
 	}
 	
-	@Test
-	//Node coverage and edge coverage
-	//test sequence: 20,21,22,23,24,25,26,34
-	public void BubbleSorttestforSingleElement() {
-		
-		Item[] numbers = new Item[1];
-		Item[] sortedNumbers =  new Item[1];
-		numbers[0]= new Item(1);
-		sortedNumbers[0]= new Item(1);
-		SortAlgos.bubbleSort(numbers);
-		assertEquals(numbers[0].key,sortedNumbers[0].key);
-	}
 	
-	@Test
-	//Node coverage and condition coverage
-	//test sequence: 20,21,22,23,24,25,26,27,33,34
-	public void BubbleSorttestforTwoElement() {
-		
-		Item[] numbers = new Item[2];
-		Item[] sortedNumbers =  new Item[2];
-		numbers[0]= new Item(37);
-		numbers[1]= new Item(32);
-		sortedNumbers[0]= new Item(32);
-		sortedNumbers[1]= new Item(37);
-		SortAlgos.bubbleSort(numbers);
-		assertEquals(numbers[0].key,sortedNumbers[0].key);
-		assertEquals(numbers[1].key,sortedNumbers[1].key);
-	}
 	
 	@Test
 	public void SelectionSorttest() {
